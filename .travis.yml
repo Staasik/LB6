@@ -13,3 +13,4 @@ deploy:
     repo: Staasik/LB6
     branch: master
     tags: true
+
