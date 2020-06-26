@@ -10,6 +10,6 @@ deploy:
   api_key: $GITHUB_TOKEN
   skip_cleanup: true
   on:
-    repo: xsepower/FinalLaboratoryWork
+    repo: Staasik/LB6
     branch: master
     tags: false
