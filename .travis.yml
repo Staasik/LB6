@@ -2,8 +2,8 @@ language: python
 puthon: 3.8
 branches:
   only:
-  - master
-  - dev
+    - master
+    - dev
 script:
   echo Starting work...
 import:
@@ -11,4 +11,3 @@ import:
   if: branch = dev
 - source: .travis/release.yml
   if: branch = master
-
